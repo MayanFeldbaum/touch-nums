@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Game</title>
+</head>
+
+<body onload="onInit()">
+    <h1></h1>
+    <p class="logo"></p>
+    <p>Choose level:
+
+            <button id='16'onclick="onInit(this)">Easy</button>
+            <button  id='25' onclick="onInit(this)">Hard</button>
+            <button id='36' onclick="onInit(this)">Extreme</button>
+
+    </p>
+    <table>
+        <tbody class="board">
+            
+        </tbody>
+    </table>
+    
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
